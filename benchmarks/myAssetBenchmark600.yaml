@@ -10,7 +10,7 @@ test:
         rateControl:
           type: fixed-load
           opts:
-            tps: 400
+            tps: 600
         workload:
           module: workload/ReadMeter.js
           arguments:
@@ -23,7 +23,7 @@ test:
         rateControl:
           type: fixed-rate
           opts:
-            tps: 400
+            tps: 600
         workload:
           module: workload/AddMeter.js
           arguments:
@@ -36,7 +36,7 @@ test:
         rateControl:
           type: fixed-rate
           opts:
-            tps: 400
+            tps: 600
         workload:
           module: workload/UpdateMeter.js
           arguments:
@@ -49,7 +49,7 @@ test:
         rateControl:
           type: fixed-rate
           opts:
-            tps: 400
+            tps: 600
         workload:
           module: workload/RemoveMeter.js
           arguments:
@@ -62,7 +62,7 @@ test:
         rateControl:
           type: fixed-rate
           opts:
-            tps: 400
+            tps: 600
         workload:
           module: workload/MeterExists.js
           arguments:
@@ -75,7 +75,7 @@ test:
         rateControl:
           type: fixed-rate
           opts:
-            tps: 400
+            tps: 600
         workload:
           module: workload/GetAllMeters.js
           arguments:
